@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "santa-workshop",
+  "version": "${version}",
+
+  "name": "Santa's WorkShop",
+  "description": "The Room-Escape Mod for the Map (Santa's WorkShop)",
+  "authors": [
+    "SimRabby",
+    "Monull2452",
+    "devil0812"
+  ],
+
+  "contact": {
+    "homepage": "https://github.com/monull",
+    "sources": "https://github.com/monull/santa-workshop"
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.monull.santa.SantaMod"
+    ]
+  },
+  "mixins": [
+
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "prison-escape": "*"
+  }
+}
