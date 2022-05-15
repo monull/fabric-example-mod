@@ -1,8 +1,9 @@
-package io.github.monull.santa;
+package io.github.monull.example;
 
 import net.fabricmc.api.ModInitializer;
 
-public class SantaMod implements ModInitializer {
+public class ExampleMod implements ModInitializer {
+
     @Override
     public void onInitialize() {
 

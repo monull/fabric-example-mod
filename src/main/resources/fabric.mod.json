@@ -1,19 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "santa-workshop",
+  "id": "fabric-example-mod",
   "version": "${version}",
 
-  "name": "Santa's WorkShop",
-  "description": "The Room-Escape Mod for the Map (Santa's WorkShop)",
+  "name": "Example Mod for Fabric",
+  "description": "example description",
   "authors": [
-    "SimRabby",
-    "Monull2452",
-    "devil0812"
+    "Monull2452"
   ],
 
   "contact": {
     "homepage": "https://github.com/monull",
-    "sources": "https://github.com/monull/santa-workshop"
+    "sources": "https://github.com/monull/fabric-example-mod"
   },
 
   "license": "CC0-1.0",
@@ -21,19 +19,19 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.monull.santa.SantaMod"
+      "io.github.monull.example.ExampleMod"
     ]
   },
   "mixins": [
 
   ],
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "1.17.x",
-    "java": ">=16"
+    "minecraft": "~1.18.2",
+    "java": ">=17"
   },
   "suggests": {
-    "prison-escape": "*"
+    "another-mod": "*"
   }
 }
